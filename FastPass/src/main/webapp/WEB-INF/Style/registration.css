@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+:root {
+  --swa-blue: #0072c6;
+  --swa-red: #e50000;
+  --swa-yellow: #ffc800;
+ 
+}
+
+/* Typography */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  
+}
+.header {
+	background-image: url(images/header.jpeg);
+	height: 240px;
+	width: auto;
+	position:relative;
+	background-position: center;
+	background-size:cover;
+}
+
+
+
+
+
+button {
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  float:right;
+ 
+  margin-right:5px;
+  margin-top:80px;
+  
+  transition: background-color 0.3s ease-in-out;
+}
+
+button.SignIn {
+  background-color: #ffc800;
+  border: 2px solid var(--swa-blue);
+  color: #0072c6;
+  
+}
+
+button.SignIn:hover {
+  background-color: var(--swa-blue);
+  color: white;
+  
+  
+}
+
+button.SignUp {
+  background-color: #0072c6;
+  border: 2px solid var(--swa-blue);
+  color: white;
+  
+}
+
+button.SignUp:hover {
+  background-color: #ffc800; 
+  color: white;
+}
+
+
+
+
