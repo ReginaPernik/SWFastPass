@@ -4,23 +4,56 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
-<style><%@include file="/WEB-INF/Style/registration.css"%></style>
-
+<title>southwest.com</title>
+<style><%@include file="/WEB-INF/Style/mainPage.css"%></style>
 
 </head>
+
+
 <body>
- <form action="Main" method="post">
-    <button type="button" class="SignIn">Log In</button>
-	<button type="button" class="SignUp" >Create Account</button>
+
+ <form action="LogIn.jsp" method="post">
+ 
+    <button type="submit" class="LogInEnroll" value="logIn"> Log In/Enroll</button>
+    
+    <img src="images/SWLogo.jpeg" width="300" height="90" />
  </form>	
  
  
-	<img src="images/SWLogo.jpeg" width="340" height="130" />
+  <div class="header">
+      <h1>Get a Fast Pass Today.</h1>
+ </div>
+	
+	
+	
+	
 
-<div class="header">
-
+	<form action=""  method="post">
+	   <div class="checkpasscontainer">
+ <h1 class="checkpass">Check Pass Availability </h1>
+         <table>
+        <tr>
+           <td>Date</td>
+           <td>Flight</td>
+         </tr>
+         <tr>
+         <td><input id="Date" type="text" /></td>
+         <td><input id="name" type="text" /></td>
+         </tr>       
+        </table>
+<button type="button" class="search">Search</button>
 </div>
+   </form>     
+      
+ 
+  <div class="heartlogo">
+  </div>
+  
+ 
+ 
+
+
+
 
 </body>
 </html>

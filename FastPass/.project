@@ -33,12 +33,7 @@
 		<link>
 			<name>src/main/webapp/images/SWLogo.jpeg</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Desktop/SWLogo.jpeg</locationURI>
-		</link>
-		<link>
-			<name>src/main/webapp/images/header.jpeg</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Desktop/header.jpeg</locationURI>
+			<location>/Users/reginapernik/SWFastPass/FastPass/src/main/webapp/images/SWLogo.jpeg</location>
 		</link>
 	</linkedResources>
 </projectDescription>
